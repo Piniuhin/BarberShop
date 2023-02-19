@@ -9,6 +9,21 @@
   --header-nav-color: #ffffff;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 h1,
 h2,
 h3,
@@ -17,6 +32,7 @@ h5,
 h6,
 p {
   margin: 0;
+  padding: 0;
 }
 
 ul {
@@ -25,8 +41,16 @@ ul {
   padding: 0;
 }
 
-body {
-  font-family: "Open Sans", sans-serif;
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.section {
+  padding-top: 130px;
+  padding-bottom: 130px;
 }
 
 .link {
