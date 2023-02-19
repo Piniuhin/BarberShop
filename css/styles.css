@@ -83,11 +83,13 @@ ul {
 }
 
 .btn {
+  font-family: inherit;
   font-weight: 600;
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.09em;
   text-transform: uppercase;
+  cursor: pointer;
 
   color: var(--color-white);
 }
@@ -233,7 +235,18 @@ ul {
 
 /* -----------------CONTACTS---------------- */
 
+.contacts-title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+
+  color: var(--color-white);
+}
+
 .contacts-link {
+  text-decoration: none;
+  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.66;
@@ -243,6 +256,8 @@ ul {
 }
 
 .contacts-schedule-title {
+  text-decoration: none;
+  font-style: normal;
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
