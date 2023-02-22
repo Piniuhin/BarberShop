@@ -16,6 +16,7 @@ html {
 body {
 	margin: 0;
 	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
 }
 
 img {
@@ -55,6 +56,11 @@ ul {
 
 .link {
 	text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+	color: var(--barbers-text-color);
 }
 
 .visually-hidden {
@@ -101,23 +107,23 @@ ul {
 
 .header-btn {
 	font-family: inherit;
+
+	color: var(--color-white);
+}
+
+.btn {
 	font-weight: 600;
 	font-size: 12px;
 	line-height: 1.33;
 	letter-spacing: 0.09em;
 	text-transform: uppercase;
 	cursor: pointer;
-
-	color: var(--color-white);
-}
-
-.btn {
 }
 
 /* -----------------HERO---------------- */
 
 .hero-title {
-	font-family: "Raleway";
+	font-family: "Raleway", sans-serif;
 	font-weight: 700;
 	font-size: 72px;
 	line-height: 1.18;
@@ -158,8 +164,8 @@ ul {
 	color: var(--color-gray);
 }
 
-.about-title {
-	font-family: "Raleway";
+.title {
+	font-family: "Raleway", sans-serif;
 	font-weight: 700;
 	font-size: 42px;
 	line-height: 1.16;
@@ -168,20 +174,21 @@ ul {
 	color: var(--color-gray);
 }
 
-.title {
-}
-
-.about-after-title {
-	font-weight: 400;
+.after-title {
 	font-size: 18px;
 	line-height: 1.66;
 	letter-spacing: 0.02em;
+}
 
+.about-title {
+	color: var(--color-gray);
+}
+
+.about-after-title {
 	color: var(--text-color);
 }
 
 .about-text {
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.86;
 	letter-spacing: 0.02em;
@@ -190,12 +197,6 @@ ul {
 }
 
 .about-btn {
-	font-weight: 600;
-	font-size: 12px;
-	line-height: 1.33;
-	letter-spacing: 0.09em;
-	text-transform: uppercase;
-
 	color: var(--color-gray);
 }
 
@@ -207,7 +208,7 @@ ul {
 	line-height: 1.66;
 	letter-spacing: 0.02em;
 
-	color: #9da4bd;
+	color: var(--text-hero-color);
 }
 
 .uptitle {
@@ -221,44 +222,57 @@ ul {
 }
 
 .prices-title {
-	font-family: "Raleway";
-	font-weight: 700;
-	font-size: 42px;
-	line-height: 1.16;
-	letter-spacing: 0.05em;
+	color: var(--color-white);
+}
 
+.prices-btn {
 	color: var(--color-white);
 }
 
 /* -----------------BENEFITS---------------- */
 
-.benefits-title {
-	font-family: "Raleway";
-	font-style: normal;
+.number {
 	font-weight: 700;
 	font-size: 42px;
-	line-height: 1.16;
+	line-height: 1.36;
 	letter-spacing: 0.05em;
 
 	color: var(--color-gray);
 }
 
+.plus {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.37;
+
+	color: var(--barbers-text-color);
+}
+
+.benefits-item-text {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 1.36;
+
+	color: var(--color-gray);
+}
+
+.benefits-title {
+}
+
+.benefits-after-title {
+	color: var(--text-color);
+}
 /* -----------------BARBERS---------------- */
 
+.barbers-pre-title {
+}
+
 .barbers-title {
-	font-family: "Raleway";
-	font-style: normal;
-	font-weight: 700;
-	font-size: 42px;
-	line-height: 1.16;
-	letter-spacing: 0.05em;
 }
 
 .barbers-item-title {
-	font-weight: 400;
 	font-size: 18px;
 	line-height: 1.38;
-	/*text-align: center;*/
 	letter-spacing: 0.02em;
 
 	color: var(--color-gray);
@@ -268,7 +282,6 @@ ul {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.36;
-	/*text-align: center;*/
 	letter-spacing: 0.02em;
 
 	color: var(--barbers-text-color);
@@ -282,12 +295,10 @@ ul {
 }
 
 .contacts-title {
-	font-family: "Raleway";
-	font-weight: 700;
-	font-size: 42px;
-	line-height: 1.16;
-	letter-spacing: 0.05em;
+	color: var(--color-white);
+}
 
+.send-btn {
 	color: var(--color-white);
 }
 
