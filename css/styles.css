@@ -6,6 +6,7 @@
 	--text-hero-color: #9da4bd;
 	--uptitele-color: rgba(157, 164, 189, 0.6);
 	--barbers-text-color: #ff6c00;
+	--online-text-color: rgba(157, 164, 189, 0.4);
 	--base-lg: 1.36;
 }
 
@@ -76,11 +77,31 @@ ul {
 	margin: -1px;
 }
 
+.btn {
+	border: 1px solid var(--barbers-text-color);
+	border-radius: 25px;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 1.33;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+}
+
+.text {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 1.36;
+}
+
 /* -----------------HEADER---------------- */
 
 .header {
 	background-color: rgb(73, 75, 70);
-
 	font-weight: 600;
 	font-size: 12px;
 	line-height: 1.33;
@@ -111,15 +132,6 @@ ul {
 	color: var(--color-white);
 }
 
-.btn {
-	font-weight: 600;
-	font-size: 12px;
-	line-height: 1.33;
-	letter-spacing: 0.09em;
-	text-transform: uppercase;
-	cursor: pointer;
-}
-
 /* -----------------HERO---------------- */
 
 .hero-title {
@@ -133,7 +145,6 @@ ul {
 }
 
 .hero-subtitle {
-	font-weight: 400;
 	font-size: 18px;
 	line-height: 1.66;
 	letter-spacing: 0.02em;
@@ -142,9 +153,6 @@ ul {
 }
 
 .hero-link {
-	font-weight: 600;
-	font-size: 11px;
-	line-height: 1.36;
 	letter-spacing: 0.2em;
 
 	color: var(--color-gray);
@@ -155,9 +163,6 @@ ul {
 /* -----------------ABOUT---------------- */
 
 .pre-title {
-	font-weight: 600;
-	font-size: 11px;
-	line-height: 1.36;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 
@@ -203,7 +208,6 @@ ul {
 /* -----------------PRICES---------------- */
 
 .prices-item-text {
-	font-weight: 400;
 	font-size: 18px;
 	line-height: 1.66;
 	letter-spacing: 0.02em;
@@ -212,9 +216,6 @@ ul {
 }
 
 .uptitle {
-	font-weight: 600;
-	font-size: 11px;
-	line-height: 1.36;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 
@@ -249,10 +250,6 @@ ul {
 }
 
 .benefits-item-text {
-	font-weight: 600;
-	font-size: 11px;
-	line-height: 1.36;
-
 	color: var(--color-gray);
 }
 
@@ -279,7 +276,6 @@ ul {
 }
 
 .barbers-item-text {
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.36;
 	letter-spacing: 0.02em;
@@ -289,12 +285,12 @@ ul {
 
 /* -----------------GALLERY---------------- */
 
-/* -----------------CONTACTS---------------- */
-
-.online-title {
+.gallery-pre-title {
 }
 
-.contacts-title {
+/* -----------------Online-Booking--------------- */
+
+.online-title {
 	color: var(--color-white);
 }
 
@@ -302,10 +298,26 @@ ul {
 	color: var(--color-white);
 }
 
+.online-item {
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+
+	color: var(--online-text-color);
+}
+
+.online-item:hover,
+.online-item:focus {
+	cursor: pointer;
+	color: var(--color-white);
+}
+
+/* -----------------CONTACTS---------------- */
+
+.contacts-title {
+	color: var(--color-white);
+}
 .contacts-link {
-	text-decoration: none;
 	font-style: normal;
-	font-weight: 400;
 	font-size: 18px;
 	line-height: 1.66;
 	letter-spacing: 0.02em;
@@ -315,35 +327,30 @@ ul {
 
 .contacts-schedule-title {
 	text-decoration: none;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 11px;
-	line-height: 1.36;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 
 	color: var(--color-white);
 }
 
-/*.contacts-schedule-text {
-}*/
-
-/* -----------------FOOTER--------------- */
-
-.copyright {
-	font-weight: 600;
-	font-size: 11px;
-	line-height: 1.36;
-	letter-spacing: 0.2em;
+.contacts-schedule-text {
+	font-size: 18px;
+	line-height: 1.66;
+	letter-spacing: 0.02em;
 
 	color: var(--text-hero-color);
 }
 
-.footer-link {
-	font-weight: 600;
-	font-size: 11px;
-	line-height: 1.36;
-	letter-spacing: 0.2em;
+/* -----------------FOOTER--------------- */
 
+.footer {
+	letter-spacing: 0.2em;
+}
+
+.copyright {
+	color: var(--text-hero-color);
+}
+
+.footer-link {
 	color: var(--color-gray);
 }
